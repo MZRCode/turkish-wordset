@@ -1,0 +1,23 @@
+{
+  "name": "turkish-wordset",
+  "version": "1.0.0",
+  "description": "Türkçe kelime setlerini filtreleyip uzunluklarına göre sınıflandıran ve JSON olarak çıktı veren Node.js aracı.",
+  "keywords": [
+    "mzrdev",
+    "türkiye",
+    "türkçe",
+    "tdk"
+  ],
+  "license": "ISC",
+  "author": "mzrdev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "mzrdb": "^1.6.0",
+    "mzrdjs": "^1.1.1",
+    "path": "^0.12.7"
+  }
+}
